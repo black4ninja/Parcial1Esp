@@ -60,7 +60,7 @@ El formato de desarrollo de la vista de detalle será abierto debiendo contener 
 * La vista debe abrirse desde la lista general de Pokemon y se hará a través de un INTENT que pase la url del detalle del Pokemon a buscar
 * Optimización del detalle para funcionar en modo landscape y portrait, no se permite bloquear la vista para funcionar solo de 1 forma
 
-###Cada detalle es individual, no se aceptarán detalles iguales que vengan de la copia de otros de internet o copia de otros compañeros. El diseño es tuyo date el tiempo de trabajarlo y planearlo. Casos de este tipo pueden derivar en FIA.
+### Cada detalle es individual, no se aceptarán detalles iguales que vengan de la copia de otros de internet o copia de otros compañeros. El diseño es tuyo date el tiempo de trabajarlo y planearlo. Casos de este tipo pueden derivar en FIA.
 
 ## Formato de entrega
 
@@ -70,14 +70,31 @@ El repositorio deberá contener lo siguiente:
 
 * Código fuente del proyecto
 * Archivo .APK firmado para instalación dentro del repositorio, puede ser en la raíz o la carpeta por default que genera Android Studio
-* Documento en formato TXT que incluya la respuesta a las siguientes preguntas: ¿Qué fue lo que más se te facilitó de la implementación de la vista? ¿Qué fue lo que más se te dificultó de la implementación de la vista?
+* Documento en formato TXT que incluya nombre, matrícula y la respuesta a las siguientes preguntas: ¿Qué fue lo que más se te facilitó de la implementación de la vista? ¿Qué fue lo que más se te dificultó de la implementación de la vista?
+
+## Comandos GitHub Entregable
+
+Si tienes algún problema para subir tu actividad al repositorio, favor de notificar al profesor con tiempo antes para revisar el caso.
+
+Si tienes problemas con los comandos no olvides que son los siguientes
+
+| Comando | Descripión |
+| ------- | ----------- |
+| `git status` | Checa el estatus de cambios de tu repositorio |
+| `git pull` | Baja los últimos cambios del repositorio |
+| `git add [file-name.txt]` | Agrega un archivo para subir |
+| `git add -A` | Agrega todos los archivos con cambios detectados |
+| `git commit -m "[commit message]"` | Crea un commit con un mensaje |
+| `git push origin"` | Sube los cambios identificados con commit correspondiente de tu computadora al repositorio |
+
+Un ciclo de actualización de cambios es el siguiente pull,status,add,commit,push
 
 ## Rúbrica
 
 La siguiente rúbrica será utilizada para la evaluación de la actividad parcial
 | Concepto                                                                  | Porcentaje    |
 | :------------------------------------------------------------------------:|:-------------:|
-| 1 Sola vista                                                              |  5%           |
+| 1 Sola vista de detalle                                                   |  5%           |
 | Diseño basado en MD                                                       | 30%           |
 | Incorporación de los 6 campos solicitados del API                         | 25%           |
 | La apertura del detalle es a través del INTENT con el formato solicitado  |  5%           |
@@ -85,7 +102,7 @@ La siguiente rúbrica será utilizada para la evaluación de la actividad parcia
 | Se entrega código fuente y archivo .apk firmado                           |  5%           |
 | Documento de reflexión actividad                                          |  5%           |
 
-###En caso de que al instalar el proyecto no corra el archivo .APK o al ejecutar el código fuente falle la aplicación se dara una calificación automática de 0, verifica desde antes que tus entregables funcionen correctamente para evitar detalles como en el mío si corre no se por que en el suyo no.
+### En caso de que al instalar el proyecto no corra el archivo .APK o al ejecutar el código fuente falle la aplicación se dara una calificación automática de 0, verifica desde antes que tus entregables funcionen correctamente para evitar detalles como en el mío si corre no se por que en el suyo no.
 
 ## Fecha de Entrega
 
